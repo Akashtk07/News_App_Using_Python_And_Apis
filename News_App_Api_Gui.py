@@ -9,7 +9,7 @@ from PIL import ImageTk,Image
 class NewsApp:
     def __init__(self):
 
-        self.data=requests.get('https://newsapi.org/v2/top-headlines?country=us&apiKey=d93a5cb7115440d09b0fa0acabbabe11').json()
+        self.data=requests.get('https://newsapi.org/v2/top-headlines?country=us&apiKey=ENTER YOUR API KEY FOR API KEY VISIT NEWSAPI.ORG WEBSITE AND MAKE YOUR ACCOUNT').json()
 
         self.Load_Gui()
 
